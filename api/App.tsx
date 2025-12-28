@@ -8,7 +8,7 @@ function Page() {
     async function getTodos() {
       const { data: todos } = await supabase.from('todos').select()
 
-      if (todos.length > 1) {
+      if (todos && todos.length > 1) {
         setTodos(todos)
       }
     }
