@@ -1,4 +1,4 @@
-import createClient from '../utils/supabase.ts';
+import {createClient} from '../utils/supabase.ts';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY;
