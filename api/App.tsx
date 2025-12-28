@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import {supabase} from "api/utils/supabase/client.ts";
+import {supabase} from "api/utils/supabase/client";
 function Page() {
   const [todos, setTodos] = useState([])
 

@@ -1,4 +1,4 @@
-
+import {createClient} from "api/utils/supabase/client"
 
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
