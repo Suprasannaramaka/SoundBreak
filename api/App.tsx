@@ -1,9 +1,8 @@
-
 import { useState, useEffect } from 'react'
 import supabase from '../utils/supabase';
 
 function Page() {
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState([0])
 
   useEffect(() => {
     async function getTodos() {
