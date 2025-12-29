@@ -1,5 +1,5 @@
 import { cn } from "../../lib/utils";
-import { Button } from "../ui/button";
+import { Button } from "../../components/ui/button";
 import { Link } from "react-router-dom";
 import {
   Field,
@@ -7,9 +7,9 @@ import {
   FieldGroup,
   FieldLabel,
   FieldSeparator,
-} from "../ui/field";
-import { Input } from "../ui/input";
-import  LoginForm  from "../pages/loginform";
+} from "../../components/ui/field";
+import { Input } from "../../components/ui/input";
+import  LoginForm  from "./loginform";
 export default function SignupForm({
   className,
   ...props

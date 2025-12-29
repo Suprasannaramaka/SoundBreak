@@ -15,7 +15,7 @@ import {
   FieldLabel,
 } from "~/components/ui/field"
 import { Input } from "~/components/ui/input";
-import SignupForm  from "../pages/signup-form";
+import SignupForm  from "./signup-form";
 
 export default function LoginForm({
   className,
