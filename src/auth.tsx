@@ -1,6 +1,6 @@
 import { GalleryVerticalEnd } from "lucide-react";
-import SignupForm from "./app/routes/signup-form";
-import LoginForm  from "./app/routes/loginform";
+import SignupForm from "../src/components/pages/signup-form";
+import LoginForm  from  "../src/components/pages/loginform";
 
 export default function Auth() {
   return (

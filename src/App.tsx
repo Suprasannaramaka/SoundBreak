@@ -1,7 +1,7 @@
 // src/App.tsx
 import { Routes, Route } from "react-router-dom";
-import  LoginForm from "./app/routes/loginform";
-import  SignupForm  from "./app/routes/signup-form";
+import  LoginForm from "./components/pages/loginform";
+import  SignupForm  from "../src/components/pages/signup-form";
 
 function App() {
   return (
