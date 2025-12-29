@@ -1,5 +1,6 @@
-import { cn } from "~/lib/utils"
-import { Button } from "~/components/ui/button"
+import { cn } from "~/lib/utils";
+import { Button } from "~/components/ui/button";
+import { Link } from "react-router";
 import {
   Card,
   CardContent,
@@ -14,7 +15,7 @@ import {
   FieldLabel,
 } from "~/components/ui/field"
 import { Input } from "~/components/ui/input";
-import { SignupForm } from "./signup-form";
+import {SignupForm}  from "./signup-form";
 
 export function LoginForm({
   className,
@@ -59,7 +60,7 @@ export function LoginForm({
                   Login with Google
                 </Button>
                 <FieldDescription className="text-center">
-                  Don&apos;t have an account? <a href="src/components/signup-form">Sign up</a>
+                  Don&apos;t have an account? <Link to="/SignupForm">SignUp</Link>
                 </FieldDescription>
               </Field>
             </FieldGroup>
