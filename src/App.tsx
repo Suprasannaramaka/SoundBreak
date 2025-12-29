@@ -5,8 +5,8 @@ import  SignupForm  from "./components/pages/signup-form";
 function App() {
   return (
       <Routes>
-        <Route path="./loginForm" element={<LoginForm />} />
-        <Route path="./signupForm" element={<SignupForm />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/signup" element={<SignupForm />} />
       </Routes>
   );
 }
