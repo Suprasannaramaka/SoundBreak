@@ -15,9 +15,9 @@ import {
   FieldLabel,
 } from "~/components/ui/field"
 import { Input } from "~/components/ui/input";
-import {SignupForm}  from "./signup-form";
+import SignupForm  from "../pages/signup-form";
 
-export function LoginForm({
+export default function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
