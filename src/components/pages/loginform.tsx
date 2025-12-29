@@ -15,9 +15,9 @@ import {
   FieldLabel,
 } from "~/components/ui/field"
 import { Input } from "~/components/ui/input";
-import SignupForm from "./signup-form";
+import {SignupForm} from "./signup-form";
 
-export default function LoginForm({
+export  function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
@@ -60,7 +60,7 @@ export default function LoginForm({
                   Login with Google
                 </Button>
                 <FieldDescription className="text-center">
-                  Don&apos;t have an account? <Link to="/SignupForm">SignUp</Link>
+                  Don&apos;t have an account? <SignupForm/>
                 </FieldDescription>
               </Field>
             </FieldGroup>

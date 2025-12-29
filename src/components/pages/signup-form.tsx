@@ -9,8 +9,8 @@ import {
   FieldSeparator,
 } from "../../components/ui/field";
 import { Input } from "../../components/ui/input";
-import  LoginForm  from "../../components/pages/loginform";
-export default function SignupForm({
+import  {LoginForm}  from "../../components/pages/loginform";
+export  function SignupForm({
   className,
   ...props
 }: React.ComponentProps<"form">) {
@@ -62,7 +62,7 @@ export default function SignupForm({
             Sign up with GitHub
           </Button>
           <FieldDescription className="px-6 text-center">
-            Already have an account? <Link to="/LoginForm">Login</Link>
+            Already have an account? <LoginForm/>
           </FieldDescription>
         </Field>
       </FieldGroup>
