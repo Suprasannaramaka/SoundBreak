@@ -1,11 +1,18 @@
 export function Welcome() {
   return (
-    <main className="flex items-center justify-center pt-16 pb-4">
-      <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
-        <header className="flex flex-col items-center gap-9">
-          <div className="w-[125] max-w-[100vw] p-4">
-           <img src="/logo.png" alt="" />
-          </div>
+    <main className="flex-col">
+      <div className="">
+        <header className="bg-stone-400 align-top items-stretch">
+           <img src="/logo.png" alt="" className="min-w-5 h-20 items-baseline "/>
+           <ol className="align-start">
+            <li>searchbar</li>
+               <li>Premium</li>
+                  <li>Download</li>
+           </ol>
+           <ol>
+            <li>Sign-Up</li>
+            <li>LogIn</li>
+           </ol>
         </header>
         </div>
        </main>
