@@ -8,7 +8,7 @@ import {
   FieldSeparator,
 } from "../components/ui/field";
 import { Input } from "../components/ui/input";
-
+import { LoginForm } from "./loginform";
 export function SignupForm({
   className,
   ...props
