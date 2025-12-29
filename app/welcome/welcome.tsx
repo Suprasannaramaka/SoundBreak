@@ -4,7 +4,7 @@ export default function Welcome() {
     <div>
     <main className="flex-col">
       <div className="">
-        <header className="bg-stone-400 align-top items-stretch">
+        <header className="bg-black align-top h-12 items-stretch">
            <img src="/logo.png" alt="" className="min-w-5 h-20 items-baseline "/>
         </header>
         </div>
