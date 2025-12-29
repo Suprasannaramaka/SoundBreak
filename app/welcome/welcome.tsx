@@ -1,5 +1,5 @@
-import auth from "../../src/auth";
-export function Welcome() {
+import Auth from "../../src/auth";
+export default function Welcome() {
   return (
     <div>
     <main className="flex-col">
@@ -10,6 +10,7 @@ export function Welcome() {
         </div>
        </main>
        <div className="">
+        <Auth />
        </div>
        <footer className="">
        </footer>
