@@ -13,7 +13,8 @@ import {
   FieldGroup,
   FieldLabel,
 } from "~/components/ui/field"
-import { Input } from "~/components/ui/input"
+import { Input } from "~/components/ui/input";
+import { SignupForm } from "./signup-form";
 
 export function LoginForm({
   className,
