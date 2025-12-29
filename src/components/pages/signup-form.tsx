@@ -9,7 +9,7 @@ import {
   FieldSeparator,
 } from "../ui/field";
 import { Input } from "../ui/input";
-import { LoginForm } from "./loginform";
+import { LoginForm } from "../pages/loginform";
 export function SignupForm({
   className,
   ...props
@@ -62,7 +62,7 @@ export function SignupForm({
             Sign up with GitHub
           </Button>
           <FieldDescription className="px-6 text-center">
-            Already have an account? <Link to="/Login">Login</Link>
+            Already have an account? <Link to="/loginform">Login</Link>
           </FieldDescription>
         </Field>
       </FieldGroup>
