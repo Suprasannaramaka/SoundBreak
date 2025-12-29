@@ -1,6 +1,6 @@
 import { cn } from "~/lib/utils";
 import { Button } from "~/components/ui/button";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import {
   Card,
   CardContent,
@@ -15,7 +15,7 @@ import {
   FieldLabel,
 } from "~/components/ui/field"
 import { Input } from "~/components/ui/input";
-import {SignupForm}  from "./signup-form";
+import {SignupForm}  from "../components/signup-form";
 
 export function LoginForm({
   className,

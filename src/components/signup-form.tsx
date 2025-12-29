@@ -1,6 +1,6 @@
 import { cn } from "../lib/utils";
 import { Button } from "../components/ui/button";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import {
   Field,
   FieldDescription,
@@ -62,7 +62,7 @@ export function SignupForm({
             Sign up with GitHub
           </Button>
           <FieldDescription className="px-6 text-center">
-            Already have an account? <Link to="/login">Login</Link>
+            Already have an account? <Link to="/Login">Login</Link>
           </FieldDescription>
         </Field>
       </FieldGroup>
