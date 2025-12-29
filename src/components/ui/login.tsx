@@ -1,4 +1,4 @@
-import { LoginForm } from  "../loginform";
+import { LoginForm } from  "../pages/loginform";
 
 export  function Login() {
   return (
