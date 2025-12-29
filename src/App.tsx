@@ -6,8 +6,8 @@ import { SignupForm } from "./components/pages/signup-form";
 function App() {
   return (
       <Routes>
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/signup" element={<SignupForm />} />
+        <Route path="/loginForm" element={<LoginForm />} />
+        <Route path="/signupForm" element={<SignupForm />} />
       </Routes>
   )
 }
