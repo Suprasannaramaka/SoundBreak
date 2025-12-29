@@ -1,7 +1,6 @@
 import { GalleryVerticalEnd } from "lucide-react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {SignupForm} from "./components/pages/signup-form";
-import {Login} from "./components/ui/login";
 
 export default function Auth() {
   return (
@@ -25,6 +24,7 @@ export default function Auth() {
         <img src="/coverimage.jpg" alt="Image"
           className="absolute inset-0 h-full w-full object-right dark:brightness-[0.2] dark:grayscale"
         />
+
       </div>
     </div>
   )

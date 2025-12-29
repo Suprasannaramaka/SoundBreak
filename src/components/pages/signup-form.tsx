@@ -9,7 +9,7 @@ import {
   FieldSeparator,
 } from "../ui/field";
 import { Input } from "../ui/input";
-import  { Login } from "../ui/login";
+import { LoginForm } from "./loginform";
 export function SignupForm({
   className,
   ...props
