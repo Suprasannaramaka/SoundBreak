@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import  {LoginForm} from "./components/pages/loginform";
+import  {LoginForm} from "./components/pages/Login";
 import  {SignupForm}  from "./components/pages/signup-form";
 
 function App() {
